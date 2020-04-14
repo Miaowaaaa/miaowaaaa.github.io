@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## 关于我
 
-You can use the [editor on GitHub](https://github.com/Miaowaaaa/miaowaaaa.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- 姓名：王天玺
+- 学历：本科毕业于中南大学计算机专业，北京邮电大学计算机专业在读硕士研究生
+- 研究方向：移动机器人目标检测与追踪
+- 个人博客：[https://me.csdn.net/qq_24894159](https://me.csdn.net/qq_24894159)
+- 邮箱：584481076@qq.com
 
 ### Markdown
 
