@@ -6,34 +6,33 @@
 - 个人博客：[https://me.csdn.net/qq_24894159](https://me.csdn.net/qq_24894159)
 - 邮箱：584481076@qq.com
 
-### Markdown
+### 主要经历
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. 室内机器人跟随及避障系统
+- 硬件：Kobuki移动机器人地盘、单目摄像头
+- 软件：Linux、ROS
+- 语言：C++、Python
+- 主要内容：移动机器人通过位置固定的单目相机连续获取RGB图像，机器人对图像中特定目标进行跟随拍摄，并在跟随移动过程中实时检测地面上障碍物并进行躲避。具体地，目标跟踪模块（Tracking Node）执行执行跟踪算法对目标在连续的图像帧中进行跟踪，同时将跟踪结果发送给运动控制节点（Motion Control Node, MC Node）。障碍物检测节点（Obstacle Detection Node, OD Node)负责检测障碍物并将检测结果发送给MC Node。最后由MC Node综合控制机器人的运动。
 
-```markdown
-Syntax highlighted code block
+2. 室内机器人建图、导航
+- 硬件：AutoLabor机器人、2D激光雷达UTM-30LX、单目摄像头
+- 软件：Linux、ROS
+- 语言：C++、Python
+- 主要内容：以Cartographer、move_base为基础搭建室内大场景建图、导航、定点巡航（抓拍人脸）功能，语音询路功能。
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### 其他作品
 
-1. Numbered
-2. List
+#### Android开发
 
-**Bold** and _Italic_ and `Code` text
+1. 基于LBS校园会议推送App
+- 获取用户授权的位置信息，主动搜索、推送周围近期举办的学术会议。采用Material Design界面设计风格，基于BaiduMap，为用户提供直观、便捷信息获取体验。
+2. 和风天气
+- Android课程设计作业，简洁界面设计，布局设计适配平板和手机端。
 
-[Link](url) and ![Image](src)
-```
+#### Web开发
+1. 在线排课系统
+- 数据库课程设计，挑战10天从零学习Html+js+css+php后台，搭建完整前后端Web应用。整体采用Bootstrap风格页面设计，支持条件排课，在线手动调课、课表生成，课表下载。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Miaowaaaa/miaowaaaa.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2. 影院售票系统
+- java web实习练手项目，MVC设计开发模式，分工协作，统一进度推进安排。
