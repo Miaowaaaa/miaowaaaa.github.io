@@ -19,7 +19,7 @@
 - 软件：Linux、ROS
 - 语言：C++、Python
 - 主要内容：以Cartographer、move_base为基础搭建室内大场景建图、导航、定点巡航（抓拍人脸）功能，语音询路功能。
-![avatar](https://github.com/Miaowaaaa/miaowaaaa.github.io/src/BigMap.png)
+![avatar](https://github.com/Miaowaaaa/miaowaaaa.github.io/imgs/BigMap.png)
 
 ### 其他作品
 
